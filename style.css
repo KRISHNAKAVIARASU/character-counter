@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+textarea{
+    width: 500px;
+    min-height: 80px;
+}
+#myTextarea::placeholder{
+padding: 8px;
+}
+.chardetails{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    padding: 15px;
+}
+.outerbox{
+    width: 510px;
+    height: 180px;
+    background-color: pink;
+    border-top: 5px  solid rgb(254, 101, 101);
+    border-bottom: 5px solid rgb(254, 101, 101);
+    border-radius:10px ;
+    padding: 25px;
+    margin: auto;
+    margin-top: 18rem;
+}
+.headdiv{
+    padding: 5px 0px 10px 0px;
+}
